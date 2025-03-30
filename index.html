@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toju Jacob - Web Developer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Sacramento&amp;display=swap">
+  <style>
+ 
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Merriweather', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Hero Styles */
+
+#hero {
+  background-image: linear-gradient(to bottom, #333, #000);
+  background-size: 100% 300px;
+  background-position: 0% 0%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c0421f;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-image {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Button Styles */
+
+.btn {
+  background-color: #3d2727;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px 30px;
+  cursor: pointer;
+  font-size: 1.em;
+  text-transform: uppercase;
+  display:grid ;
+  flex-direction: column;
+  align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.btn:hover {
+  background-color: #4d1948;
+    transition: background-color 1.5s ease;
+    
+}
+
+
+/* Section Styles */
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+/* Footer Styles */
+
+.bottom-container {
+  background-color: #333;
+  background: linear-gradient(400deg, #81b409, #09b4b4, #228ce2, #f53a1d);
+ 
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  
+}
+.list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .container-fluid {
+    background: linear-gradient(400deg, #81b409, #09b4b4, #228ce2, #f53a1d);
+  background-size: 400px;
+  animation: gradient-animation 1s ease infinite;
+  padding: 0px; 
+  margin: -10px -0px -10px -0px; ;
+
+        } 
+   
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Jakom Tech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="header">
+    <h1>Toju Jacob</h1>
+    <p>Web Developer</p>
+  </div>
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+        <img src="./images/wbesite pic..jpg" class="hero-image" alt="Your Image">
+        <h1>Welcome to My Website!</h1>
+        <p>I'm a passionate web developer with love for building innovative solutions. Coding is my first Luv.</p>
+            <a href="./public/Learnmore.html" class="btn">Learn More</a>
+    </div>
+    
+   
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>keep it Simple and Real </p>
+      <p>I simply love coding; its like making a delicious treat. The feeling when I finally get it right, its my healing.</p>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2>Skills</h2>
+    <p>I strive to create the most beautiful websites for all your needs. Working closely with you to design and develop an amazing website for your business.</p>
+    <p>Here are some of the technologies I work with:</p>
+ 
+    <div class="list">
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="list">
+        <li>Web Developer at Yickscom Digital Solutions (2020-Present)</li>
+        <li>Internship (2019-2020)</li>
+        <li>Certificate (2018-2019</li>
+    </div>
+</section>
+
+<!-- Interests Section -->
+<section id="interests">
+    <h2>Interests</h2>
+    <div class="list">
+        <li>Web development</li>
+        <li>Chessboard game</li>
+        <li>Hiking</li>
+    </div>
+</section>
+
+<!-- Contact Section -->
+
+
+<section id="contact-message">
+  
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you love chess games as much as I do.</h3>
+            <p class="contact-message">Love chess games as much as I do? Let's talk about how awesome it is! We can code while we play hot wings!</p>
+            <a class="btn" href="mailto:tojuomaghomi1@gmail.com">CONTACT ME</a>
+          </div>
+
+        </section>
+          <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/toju-jacob-b0773b1b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+            <a class="footer-link" href="https://www.facebook.com/share/1PdTtJHtE8/?mibextid=wwXIfr">Facebook</a>
+            <a class="footer-link" href="https://www.instagram.com/1mr__oloye?igsh=MW01dXV4aHh4cHVubw%3D%3D&utm_source=qr">Instagram</a>
+            <p class="copyright">© 2025 Jacom.</p>
+          </div>
+        </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+  crossorigin="anonymous"></script>
+
+
+  
+  
+  
+  
+  </body></html>
